@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>teste</title>
+	<script src="https://www.google.com/recaptcha/api.js"></script>
+</head>
+<body>
+	
+	<style type="text/css">
+		body {
+			background-color: #1010104f!important;
+		}
+	</style>
+	<div class="uk-section" uk-height-viewport id="item-login-hells">
+		<div class="uk-width-1-1">
+			<div class="uk-container">
+				<div class="uk-grid-margin uk-grid uk-grid-stack" uk-grid>
+					<div class="uk-width-1-3@m">
+						<div class="uk-margin">
+							<form class="form-methods-post">
+								<div class="uk-margin">
+									<label>E-mail</label>
+									<div class="uk-inline uk-width-1-1">
+										<span class="uk-form-icon" uk-icon="icon: mail"></span>
+										<input class="uk-input uk-form-large" type="text" id="mail">
+									</div>
+								</div>
+								<div class="uk-margin">
+									<label>Nome</label>
+									<div class="uk-inline uk-width-1-1">
+										<span class="uk-form-icon" uk-icon="icon: user"></span>
+										<input class="uk-input uk-form-large" type="text" id="nome">
+									</div>
+								</div>
+
+								<div class="uk-margin">
+							    	<label>Tipo de Documento</label>
+							        <select class="uk-select" id="documento_type" style="height: 55px;">
+								        <option value="CPF">CPF</option>
+								        <option value="CNPJ">CNPJ</option>
+								    </select>
+							    </div>
+
+								<div class="uk-margin">
+									<label>Número de Documento</label>
+									<div class="uk-inline uk-width-1-1">
+										<span class="uk-form-icon" uk-icon="icon: file-text"></span>
+										<input class="uk-input uk-form-large" type="text" id="documento" autocomplete="off" maxlength="14">
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+
+        var documento = document.getElementById('documento');
+		var documento_type = document.getElementById('documento_type');
+        var option = 1 //Número 1 corresponde ao CPF e o 2 ao CNPJ
+
+        documento_type.addEventListener('change', () => {
+            documento.value = '';
+            const opcaoSelecionada = documento_type.options[documento_type.selectedIndex].value;
+            if(opcaoSelecionada == 'CPF' || opcaoSelecionada == 'cpf'){
+                option = 1;
+                documento.setAttribute('maxlength',14);
+            } else if(opcaoSelecionada == 'CNPJ' || opcaoSelecionada == 'cnpj'){
+                option = 2;
+                documento.setAttribute('maxlength',18);
+            }
+        })
+        documento.addEventListener('keypress', () => {
+            if(option == 1){
+                let documentoLength = documento.value.length
+                if(documentoLength === 3){documento.value += `.`}
+                else if(documentoLength == 7){documento.value += `.`}
+                else if(documentoLength == 11){documento.value += `-`}
+            }else if(option == 2){
+                let documentoLength = documento.value.length
+                if(documentoLength === 2){documento.value += `.`}
+                else if(documentoLength == 6){documento.value += `.`}
+                else if(documentoLength == 10){documento.value += `/`}
+                else if(documentoLength == 15){documento.value += `-`}
+            }
+        })
+
+		
+	</script>
+
+</body>
+</html>
