@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contar Letras</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/uikit.min.css" />
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+        <style>
+            #secao1 {
+                align-items: center;
+                text-align: center;
+            }
+            #contar{
+                width: 500px;
+            }
+            #area{
+                width: 492px;
+                height: 200px;
+            }
+            #caracteres{
+                font-size: 18pt;
+            }
+            #palavras{
+                font-size: 18pt;
+            }
+        </style>
+    </head>
+    <body>
+        <center><h1>Contador de letras</h1></center><br><br>
+        <section id="secao1">
+            <input type="textarea" id="area" placeholder="Insira seu texto aqui" style="text-align: center; font-size: 18pt;"><br><br>
+            <button class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-bottom" id="contar" onclick="apagar()">Apagar</button><br><br>
+            <div id="caracteres"></div>
+            <div id="palavras"></div>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
