@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+          <meta charset="UTF-8">
+        <title>Gerador de Roteiro Audiovisual</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="selector">
+                <h3>Formato</h3>
+                <select id="formato">
+                    <option>Vídeo</option>
+                    <option>Imagem</option>
+                </select>
+            </div>
+            
+            <div class="selector">
+                <h3>Tom de Voz</h3>
+                <select id="tom_de_voz">
+                    <option>Formal</option>
+                    <option>Educativo</option>
+                    <option>Informal</option>
+                    <option>Autoridade</option>
+                    <option>Entusiasmado</option>
+                </select>
+            </div>
+
+            <div class="selector">
+                <h3>Figurino</h3>
+                <select id="figurino">
+                    <option>Formal</option>
+                    <option>Informal</option>
+                    <option>Autoridade</option>
+                    <option>Luxuoso</option>
+                </select>
+            </div>
+
+            <div class="selector">
+                <h3>Cenário</h3>
+                <select id="cenario">
+                    <option>Formal</option>
+                    <option>Educativo</option>
+                    <option>Informal</option>
+                    <option>Autoridade</option>
+                    <option>Luxuoso</option>
+                </select>
+            </div>
+
+            <div class="selector">
+                <h3>Persona</h3>
+                <select id="persona">
+                    <option>Empresários</option>
+                    <option>Gestores</option>
+                    <option>Líderes 1º Escalão</option>
+                    <option>Consultores</option>
+                </select>
+            </div>
+
+            <div class="selector">
+                <h3>Nível do Papo</h3>
+                <select id="nivel_do_papo">
+                    <option>Leve</option>
+                    <option>Moderado</option>
+                    <option>Punch</option>
+                </select>
+            </div>
+
+            <div class="selector">
+                <h3>Ambiente</h3>
+                <select id="ambiente">
+                    <option>Interno</option>
+                    <option>Externo</option>
+                </select>
+            </div>
+
+            <div class="selector">
+                <h3>Tempo</h3>
+                <select id="tempo">
+                    <option>Dia</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </div>
+
+            <div class="selector">
+                <h3>Local</h3>
+                <select id="local">
+                    <option>Ar livre</option>
+                    <option>Casa</option>
+                    <option>Profissional</option>
+                    <option>Carro</option>
+                    <option>Lazer</option>
+                </select>
+            </div>
+
+            <div class="selector">
+                <h3>Duração</h3>
+                <select id="duracao">
+                    <option>30sec até 1min</option>
+                    <option>1min até 10min</option>
+                    <option>10min até 1h</option>
+                </select>
+            </div>
+
+            <div class="selector">
+                <h3>Edição?</h3>
+                <select id="edicao">
+                    <option>Sim</option>
+                    <option>Não</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <h3>Tema</h3>
+                <input type="text" id="tema" placeholder="Digite o tema">
+            </div>
+
+            <div class="input-group">
+                <h3>Copy</h3>
+                <textarea id="copy" placeholder="Digite a copy"></textarea>
+            </div>
+
+            <div class="input-group">
+                <h3>Hashtags</h3>
+                <input type="text" id="hashtags" placeholder="Digite as hashtags">
+            </div>
+
+            <div class="input-group">
+                <h3>Observações</h3>
+                <input type="text" id="observacoes" placeholder="Digite as observações">
+            </div>
+
+	<button id="gerarPDFButton">Gerar PDF</button>
+        </div>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
