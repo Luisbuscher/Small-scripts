@@ -1,0 +1,39 @@
+header{
+    padding-top: 2%;
+    text-align: center;
+    align-items: center;
+}
+h1{
+    color: rgb(9, 9, 240);
+}
+#informacoes{
+    align-items: center;
+    text-align: center;
+}
+.uk-margin{
+    text-align: center;
+    align-items: center;
+}
+.uk-input{
+    width: 600px;
+    height: 50px;
+}
+#formulario{
+    padding-top: 3%;
+    text-align: center;
+    align-items: center;
+}
+#botaoGerarPolitica{
+    width: 650px;
+    height: 40px;
+    background-color: rgba(68, 68, 80, 0.795);
+    color: white;
+    font-size: 16pt;
+
+}
+#politica{
+    width: 950px;
+}
+#texto{
+    text-align: left;
+}
