@@ -1,0 +1,851 @@
+Intel Core i3-530
+Intel Core i3-540
+Intel Core i3-550
+
+Intel Core i3-2100
+Intel Core i3-2100T
+Intel Core i3-2102
+Intel Core i3-2120
+Intel Core i3-2120T
+Intel Core i3-2125
+Intel Core i3-2130
+Intel Core i3-2135
+Intel Core i3-2310M
+Intel Core i3-2312M
+Intel Core i3-2312E
+Intel Core i3-2330E
+Intel Core i3-2330M
+Intel Core i3-2350M
+Intel Core i3-2370M
+Intel Core i3-2375M
+Intel Core i3-2377M
+Intel Core i3-2380M
+Intel Core i3-3110M
+Intel Core i3-3120M
+Intel Core i3-3120ME
+Intel Core i3-3210
+Intel Core i3-3217U
+Intel Core i3-3220
+Intel Core i3-3220T
+Intel Core i3-3225
+Intel Core i3-3240
+Intel Core i3-3240T
+Intel Core i3-3245
+Intel Core i3-3250
+Intel Core i3-3250T
+Intel Core i3-3250U
+Intel Core i3-3270M
+Intel Core i3-3290T
+Intel Core i3-330M
+Intel Core i3-3320M
+Intel Core i3-3320E
+Intel Core i3-3320
+Intel Core i3-3325
+Intel Core i3-370M
+Intel Core i3-380M
+
+Intel Core i3-3110M
+Intel Core i3-3120M
+Intel Core i3-3120ME
+Intel Core i3-3130M
+Intel Core i3-3210
+Intel Core i3-3220
+Intel Core i3-3220T
+Intel Core i3-3225
+Intel Core i3-3240
+Intel Core i3-3240T
+Intel Core i3-3245
+Intel Core i3-3250
+Intel Core i3-3250T
+Intel Core i3-3250U
+Intel Core i3-3265M
+Intel Core i3-3270M
+Intel Core i3-3290T
+Intel Core i3-330M
+Intel Core i3-3320M
+Intel Core i3-3320E
+Intel Core i3-3320
+Intel Core i3-3325
+Intel Core i3-370M
+Intel Core i3-380M
+Intel Core i3-390M
+Intel Core i3-4000M
+Intel Core i3-4005U
+Intel Core i3-4010U
+Intel Core i3-4012Y
+Intel Core i3-4012U
+Intel Core i3-4014U
+Intel Core i3-4020Y
+Intel Core i3-4025U
+Intel Core i3-4030U
+Intel Core i3-4030Y
+Intel Core i3-4032E
+Intel Core i3-4032U
+Intel Core i3-4030U
+Intel Core i3-4100M
+Intel Core i3-4102E
+Intel Core i3-4102M
+Intel Core i3-4105U
+Intel Core i3-4110M
+Intel Core i3-4112E
+Intel Core i3-4112M
+Intel Core i3-4120U
+Intel Core i3-4120M
+Intel Core i3-4130
+Intel Core i3-4130T
+Intel Core i3-4130E
+Intel Core i3-4130TE
+Intel Core i3-4132
+Intel Core i3-4150
+Intel Core i3-4150T
+Intel Core i3-4160
+Intel Core i3-4160T
+Intel Core i3-4170
+Intel Core i3-4170T
+Intel Core i3-4170TE
+
+Intel Core i3-4000M
+Intel Core i3-4005U
+Intel Core i3-4010U
+Intel Core i3-4012Y
+Intel Core i3-4012U
+Intel Core i3-4014U
+Intel Core i3-4020Y
+Intel Core i3-4025U
+Intel Core i3-4030U
+Intel Core i3-4030Y
+Intel Core i3-4032E
+Intel Core i3-4032U
+Intel Core i3-4030U
+Intel Core i3-4100M
+Intel Core i3-4102E
+Intel Core i3-4102M
+Intel Core i3-4105U
+Intel Core i3-4110M
+Intel Core i3-4112E
+Intel Core i3-4112M
+Intel Core i3-4120U
+Intel Core i3-4120M
+Intel Core i3-4130
+Intel Core i3-4130T
+Intel Core i3-4130E
+Intel Core i3-4130TE
+Intel Core i3-4132
+Intel Core i3-4150
+Intel Core i3-4150T
+Intel Core i3-4160
+Intel Core i3-4160T
+Intel Core i3-4170
+Intel Core i3-4170T
+Intel Core i3-4170TE
+Intel Core i3-4330
+Intel Core i3-4330T
+Intel Core i3-4330TE
+Intel Core i3-4350T
+Intel Core i3-4360
+Intel Core i3-4360T
+Intel Core i3-4370
+Intel Core i3-4370T
+Intel Core i3-4370TE
+Intel Core i3-4390T
+Intel Core i3-4450
+Intel Core i3-4450S
+Intel Core i3-4454U
+Intel Core i3-4460
+Intel Core i3-4460S
+Intel Core i3-4460T
+Intel Core i3-4470
+Intel Core i3-4470K
+Intel Core i3-4470S
+Intel Core i3-4471
+Intel Core i3-4500U
+Intel Core i3-4502
+Intel Core i3-4502B
+Intel Core i3-4502P
+Intel Core i3-4510U
+Intel Core i3-4512
+Intel Core i3-4512E
+Intel Core i3-5005U
+Intel Core i3-5010U
+Intel Core i3-5015U
+Intel Core i3-5020U
+
+Intel Core i3-5005U
+Intel Core i3-5010U
+Intel Core i3-5015U
+Intel Core i3-5020U
+Intel Core i3-5025U
+Intel Core i3-5030U
+Intel Core i3-5157U
+Intel Core i3-5160
+Intel Core i3-5300
+Intel Core i3-5300T
+Intel Core i3-5010TE
+Intel Core i3-5020E
+Intel Core i3-5015UC
+Intel Core i3-5157UE
+Intel Core i3-5015UE
+Intel Core i3-5010UM
+Intel Core i3-5010Y
+Intel Core i3-5012U
+Intel Core i3-5012Y
+Intel Core i3-5015T
+Intel Core i3-5020EJ
+Intel Core i3-5020UJ
+Intel Core i3-5025UE
+Intel Core i3-5025UJ
+Intel Core i3-5030UE
+Intel Core i3-5157UEJ
+Intel Core i3-5010M
+Intel Core i3-5020M
+Intel Core i3-5150
+Intel Core i3-5150T
+Intel Core i3-5300B
+Intel Core i3-5300U
+Intel Core i3-5157UJ
+Intel Core i3-5015U1
+Intel Core i3-5010U1
+Intel Core i3-5015UC1
+Intel Core i3-5020U1
+Intel Core i3-5025UC1
+Intel Core i3-5030U1
+Intel Core i3-5015U2
+Intel Core i3-5010U2
+Intel Core i3-5020U2
+Intel Core i3-5025U2
+Intel Core i3-5030U2
+Intel Core i3-5010U3
+Intel Core i3-5015U3
+Intel Core i3-5020U3
+Intel Core i3-5025U3
+Intel Core i3-5030U3
+Intel Core i3-5015U4
+Intel Core i3-5010U4
+Intel Core i3-5020U4
+Intel Core i3-5025U4
+Intel Core i3-5030U4
+Intel Core i3-5010U5
+Intel Core i3-5015U5
+Intel Core i3-5020U5
+Intel Core i3-5025U5
+Intel Core i3-5030U5
+
+Intel Core i3-6100
+Intel Core i3-6100H
+Intel Core i3-6100U
+Intel Core i3-6110
+Intel Core i3-6120
+Intel Core i3-6130
+Intel Core i3-6130T
+Intel Core i3-6140
+Intel Core i3-6157U
+Intel Core i3-6167U
+Intel Core i3-6100TE
+Intel Core i3-6100E
+Intel Core i3-6100B
+Intel Core i3-6150U
+Intel Core i3-6150UE
+Intel Core i3-6160
+Intel Core i3-6160T
+Intel Core i3-6300
+Intel Core i3-6300T
+Intel Core i3-6320
+Intel Core i3-6320T
+Intel Core i3-6100E
+Intel Core i3-6098P
+Intel Core i3-6098EP
+Intel Core i3-6100HTE
+Intel Core i3-6100HTW
+Intel Core i3-6100HK
+Intel Core i3-6160U
+Intel Core i3-6100TJ
+Intel Core i3-6100TEJ
+Intel Core i3-6100UJ
+Intel Core i3-6100U1
+Intel Core i3-6100U2
+Intel Core i3-6100U3
+Intel Core i3-6100U4
+Intel Core i3-6100U5
+Intel Core i3-6100U6
+Intel Core i3-6100U7
+Intel Core i3-6100U8
+Intel Core i3-6100U9
+Intel Core i3-6100U10
+Intel Core i3-6100U11
+Intel Core i3-6100U12
+Intel Core i3-6100U13
+Intel Core i3-6100U14
+Intel Core i3-6100U15
+Intel Core i3-6100U16
+Intel Core i3-6100U17
+Intel Core i3-6100U18
+Intel Core i3-6100U19
+Intel Core i3-6100U20
+Intel Core i3-6100U21
+Intel Core i3-6100U22
+Intel Core i3-6100U23
+Intel Core i3-6100U24
+Intel Core i3-6100U25
+Intel Core i3-6100U26
+Intel Core i3-6100U27
+Intel Core i3-6100U28
+Intel Core i3-6100U29
+Intel Core i3-6100U30
+
+Intel Core i3-7100
+Intel Core i3-7100H
+Intel Core i3-7100U
+Intel Core i3-7110U
+Intel Core i3-7120
+Intel Core i3-7130U
+Intel Core i3-7130UE
+Intel Core i3-7130TE
+Intel Core i3-7300
+Intel Core i3-7320
+Intel Core i3-7350K
+Intel Core i3-7340
+Intel Core i3-7320T
+Intel Core i3-7102E
+Intel Core i3-7102TE
+Intel Core i3-7101E
+Intel Core i3-7101TE
+Intel Core i3-7100T
+Intel Core i3-7101T
+Intel Core i3-7102T
+Intel Core i3-7120T
+Intel Core i3-7130T
+Intel Core i3-7100HTE
+Intel Core i3-7100HTW
+Intel Core i3-7100HK
+Intel Core i3-7100UJ
+Intel Core i3-7100U1
+Intel Core i3-7100U2
+Intel Core i3-7100U3
+Intel Core i3-7100U4
+Intel Core i3-7100U5
+Intel Core i3-7100U6
+Intel Core i3-7100U7
+Intel Core i3-7100U8
+Intel Core i3-7100U9
+Intel Core i3-7100U10
+Intel Core i3-7100U11
+Intel Core i3-7100U12
+Intel Core i3-7100U13
+Intel Core i3-7100U14
+Intel Core i3-7100U15
+Intel Core i3-7100U16
+Intel Core i3-7100U17
+Intel Core i3-7100U18
+Intel Core i3-7100U19
+Intel Core i3-7100U20
+Intel Core i3-7100U21
+Intel Core i3-7100U22
+Intel Core i3-7100U23
+Intel Core i3-7100U24
+Intel Core i3-7100U25
+Intel Core i3-7100U26
+Intel Core i3-7100U27
+Intel Core i3-7100U28
+Intel Core i3-7100U29
+Intel Core i3-7100U30
+Intel Core i3-7100U31
+Intel Core i3-7100U32
+Intel Core i3-7100U33
+Intel Core i3-7100U34
+Intel Core i3-7100
+
+Intel Core i3-8100
+Intel Core i3-8100T
+Intel Core i3-8100H
+Intel Core i3-8109U
+Intel Core i3-8130U
+Intel Core i3-8145U
+Intel Core i3-8130UE
+Intel Core i3-8130Y
+Intel Core i3-8140Y
+Intel Core i3-8121U
+
+Intel Core i3-9100
+Intel Core i3-9100F
+Intel Core i3-9100T
+Intel Core i3-9300
+Intel Core i3-9320
+Intel Core i3-9350KF
+Intel Core i3-9350K
+Intel Core i3-9320P
+Intel Core i3-9100E
+
+Intel Core i3-10000
+Intel Core i3-10000T
+Intel Core i3-10100
+Intel Core i3-10100F
+Intel Core i3-10100E
+Intel Core i3-10100TE
+Intel Core i3-10110U
+Intel Core i3-10120E
+
+Intel Core i3-11100
+Intel Core i3-11100F
+Intel Core i3-1110G4
+Intel Core i3-1115G4
+Intel Core i3-1120G4
+Intel Core i3-1125G4
+Intel Core i3-1130G7
+Intel Core i3-1135G7
+Intel Core i3-1140G7
+Intel Core i3-1150G4
+Intel Core i3-1155G4
+Intel Core i3-11500
+Intel Core i3-11500T
+Intel Core i3-1150T
+
+Intel Core i5-750
+Intel Core i5-750S
+Intel Core i5-661
+Intel Core i5-660
+Intel Core i5-650
+Intel Core i5-670
+Intel Core i5-660S
+Intel Core i5-661T
+Intel Core i5-680
+
+Intel Core i5-2300
+Intel Core i5-2310
+Intel Core i5-2320
+Intel Core i5-2400
+Intel Core i5-2400S
+Intel Core i5-2405S
+Intel Core i5-2400T
+Intel Core i5-2500
+Intel Core i5-2500K
+Intel Core i5-2500S
+Intel Core i5-2500T
+Intel Core i5-2550K
+
+Intel Core i5-3330
+Intel Core i5-3330S
+Intel Core i5-3350P
+Intel Core i5-3450
+Intel Core i5-3450S
+Intel Core i5-3470
+Intel Core i5-3470S
+Intel Core i5-3470T
+Intel Core i5-3475S
+Intel Core i5-3550
+Intel Core i5-3550S
+Intel Core i5-3570
+Intel Core i5-3570K
+Intel Core i5-3570S
+Intel Core i5-3570T
+
+Intel Core i5-4430
+Intel Core i5-4430S
+Intel Core i5-4440
+Intel Core i5-4440S
+Intel Core i5-4460
+Intel Core i5-4460S
+Intel Core i5-4570
+Intel Core i5-4570S
+Intel Core i5-4570T
+Intel Core i5-4590
+Intel Core i5-4590S
+Intel Core i5-4590T
+Intel Core i5-4670
+Intel Core i5-4670K
+Intel Core i5-4670S
+Intel Core i5-4670T
+Intel Core i5-4690
+Intel Core i5-4690K
+Intel Core i5-4690S
+Intel Core i5-4690T
+
+Intel Core i5-5200U
+Intel Core i5-5250U
+Intel Core i5-5300U
+Intel Core i5-5350U
+Intel Core i5-5257U
+Intel Core i5-5287U
+Intel Core i5-5280U
+Intel Core i5-5350H
+Intel Core i5-5675C
+Intel Core i5-5675R
+
+Intel Core i5-6400
+Intel Core i5-6400T
+Intel Core i5-6500
+Intel Core i5-6500T
+Intel Core i5-6600
+Intel Core i5-6600K
+Intel Core i5-6600T
+
+Intel Core i5-7400
+Intel Core i5-7400T
+Intel Core i5-7500
+Intel Core i5-7500T
+Intel Core i5-7600
+Intel Core i5-7600K
+Intel Core i5-7600T
+
+Intel Core i5-8400
+Intel Core i5-8400T
+Intel Core i5-8500
+Intel Core i5-8500T
+Intel Core i5-8600
+Intel Core i5-8600K
+Intel Core i5-8600T
+Intel Core i5-8600KF
+
+Intel Core i5-9400
+Intel Core i5-9400F
+Intel Core i5-9400H
+Intel Core i5-9500
+Intel Core i5-9500F
+Intel Core i5-9500H
+Intel Core i5-9600
+Intel Core i5-9600K
+Intel Core i5-9600KF
+Intel Core i5-9600T
+
+Intel Core i5-10200H
+Intel Core i5-10210U
+Intel Core i5-10300H
+Intel Core i5-1035G1
+Intel Core i5-1035G4
+Intel Core i5-1035G7
+Intel Core i5-1035G8
+Intel Core i5-1035G16
+Intel Core i5-1035G17
+Intel Core i5-10400
+Intel Core i5-10400F
+Intel Core i5-10400T
+Intel Core i5-10400H
+Intel Core i5-10400H vPro
+Intel Core i5-10400E
+Intel Core i5-10500
+Intel Core i5-10500T
+Intel Core i5-10500H
+Intel Core i5-10500H vPro
+Intel Core i5-10500E
+Intel Core i5-10600
+Intel Core i5-10600K
+Intel Core i5-10600KF
+Intel Core i5-10600T
+Intel Core i5-10600H
+Intel Core i5-10600H vPro
+Intel Core i5-10600E
+
+Intel Core i5-11400
+Intel Core i5-11400F
+Intel Core i5-11500
+Intel Core i5-11500T
+Intel Core i5-11600
+Intel Core i5-11600K
+Intel Core i5-11600KF
+Intel Core i5-11600T
+Intel Core i5-11600H
+Intel Core i5-1165G7
+Intel Core i5-1165G7E
+Intel Core i5-1135G7
+Intel Core i5-1135G7E
+
+Intel Core i7-920
+Intel Core i7-940
+Intel Core i7-950
+Intel Core i7-960
+Intel Core i7-975 Extreme Edition
+
+Intel Core i7-2600
+Intel Core i7-2600K
+Intel Core i7-2700K
+
+Intel Core i7-3770
+Intel Core i7-3770K
+Intel Core i7-3820
+Intel Core i7-3930K
+Intel Core i7-3960X Extreme Edition
+
+Intel Core i7-4770
+Intel Core i7-4770K
+Intel Core i7-4820K
+Intel Core i7-4930K
+Intel Core i7-4960X Extreme Edition
+
+Intel Core i7-5775C
+Intel Core i7-5775R
+Intel Core i7-5820K
+Intel Core i7-5930K
+Intel Core i7-5960X Extreme Edition
+
+Intel Core i7-6700
+Intel Core i7-6700K
+Intel Core i7-6800K
+Intel Core i7-6850K
+Intel Core i7-6900K
+Intel Core i7-6950X Extreme Edition
+
+Intel Core i7-7700
+Intel Core i7-7700K
+Intel Core i7-7740X
+Intel Core i7-7800X
+Intel Core i7-7820X
+Intel Core i7-7900X Extreme Edition
+
+Intel Core i7-8700
+Intel Core i7-8700K
+Intel Core i7-8750H
+Intel Core i7-8809G
+Intel Core i7-8850H
+Intel Core i7-8850U
+Intel Core i7-8086K Limited Edition
+
+Intel Core i7-9700
+Intel Core i7-9700K
+Intel Core i7-9750H
+Intel Core i7-9850H
+Intel Core i7-9850HL
+Intel Core i7-9750HF
+Intel Core i7-9850HF
+
+Intel Core i7-10510U
+Intel Core i7-1065G7
+Intel Core i7-10700
+Intel Core i7-10700K
+Intel Core i7-10750H
+Intel Core i7-10850H
+Intel Core i7-10875H
+Intel Core i7-10870H
+Intel Core i7-10810U
+Intel Core i7-10850K
+Intel Core i7-10900
+Intel Core i7-10900K
+Intel Core i7-10895H
+
+Intel Core i7-11370H
+Intel Core i7-1160G7
+Intel Core i7-1165G7
+Intel Core i7-1185G7
+
+Intel Core i9-7900X
+Intel Core i9-7920X
+Intel Core i9-7940X
+Intel Core i9-7960X
+Intel Core i9-7980XE
+
+Intel Core i9-7900XE
+Intel Core i9-7920XE
+Intel Core i9-7940XE
+Intel Core i9-7960XE
+Intel Core i9-7980XE
+
+Intel Core i9-9900K
+Intel Core i9-9900KF
+Intel Core i9-9900KS
+Intel Core i9-9920X
+Intel Core i9-9940X
+Intel Core i9-9960X
+Intel Core i9-9980XE
+
+Intel Core i9-10900K
+Intel Core i9-10900KF
+Intel Core i9-10900F
+Intel Core i9-10900
+Intel Core i9-10900T
+Intel Core i9-10920X
+Intel Core i9-10940X
+Intel Core i9-10980XE
+
+Intel Core i9-11900K
+Intel Core i9-11900KF
+Intel Core i9-11900H
+Intel Core i9-11900T
+
+Intel Core i9-7900X
+Intel Core i9-7920X
+Intel Core i9-7940X
+Intel Core i9-7960X
+Intel Core i9-7980XE
+
+Intel Core i9-9900K
+Intel Core i9-9900KF
+Intel Core i9-9900KS
+Intel Core i9-9920X
+Intel Core i9-9940X
+Intel Core i9-9960X
+Intel Core i9-9980XE
+
+Intel Core i9-10900K
+Intel Core i9-10900KF
+Intel Core i9-10900F
+Intel Core i9-10900
+Intel Core i9-10900T
+Intel Core i9-10920X
+Intel Core i9-10940X
+Intel Core i9-10980XE
+
+Intel Core i9-11900K
+Intel Core i9-11900KF
+Intel Core i9-11900H
+Intel Core i9-11900T
+
+Intel Core i9-12900K
+Intel Core i9-12900KF
+Intel Core i9-12900KS
+Intel Core i9-12900H
+Intel Core i9-11900KB
+
+Ryzen 3 1200
+Ryzen 3 1200 AF
+Ryzen 3 1300X
+Ryzen 3 2200G
+Ryzen 3 2200GE
+Ryzen 3 3100
+Ryzen 3 3200G
+Ryzen 3 3300X
+Ryzen 3 4300GE
+Ryzen 3 4300G
+Ryzen 3 4350G
+Ryzen 3 5100U
+Ryzen 3 5300U
+
+Ryzen 5 1400
+Ryzen 5 1500X
+Ryzen 5 1600
+Ryzen 5 1600 AF
+Ryzen 5 1600X
+Ryzen 5 2400G
+Ryzen 5 2400GE
+Ryzen 5 2600
+Ryzen 5 2600X
+Ryzen 5 3400G
+Ryzen 5 3500
+Ryzen 5 3500X
+Ryzen 5 3600
+Ryzen 5 3600X
+Ryzen 5 3600XT
+Ryzen 5 4500U
+Ryzen 5 4600H
+Ryzen 5 4600U
+Ryzen 5 4600GE
+Ryzen 5 4600G
+Ryzen 5 5600G
+Ryzen 5 5600X
+
+Ryzen 7 1700
+Ryzen 7 1700X
+Ryzen 7 1800X
+Ryzen 7 2700
+Ryzen 7 2700X
+Ryzen 7 3700X
+Ryzen 7 3800X
+Ryzen 7 3800XT
+Ryzen 7 4700G
+Ryzen 7 4800H
+Ryzen 7 4800HS
+Ryzen 7 4800U
+Ryzen 7 4800H
+Ryzen 7 4800HS
+Ryzen 7 5700G
+Ryzen 7 5800X
+Ryzen 7 5800H
+Ryzen 7 5800HS
+Ryzen 7 5800U
+
+Ryzen 9 3900X
+Ryzen 9 3900XT
+Ryzen 9 3950X
+Ryzen 9 5900X
+Ryzen 9 5950X
+Ryzen 9 5980HS
+Ryzen 9 5900HX
+Ryzen 9 5980HX
+
+Ryzen Threadripper 1900X
+Ryzen Threadripper 1920X
+Ryzen Threadripper 1950X
+Ryzen Threadripper 2920X
+Ryzen Threadripper 2950X
+Ryzen Threadripper 3960X
+Ryzen Threadripper 3970X
+Ryzen Threadripper PRO 3945WX
+Ryzen Threadripper PRO 3955WX
+Ryzen Threadripper PRO 3975WX
+Ryzen Threadripper PRO 3995WX
+
+Celeron G4930
+Celeron G5900
+Celeron G5920
+Celeron G6400
+Celeron J4025
+Celeron J4125
+Celeron N4000
+Celeron N4020
+Celeron N4100
+Celeron N4120
+
+Pentium Gold G6400
+Pentium Gold G6500
+Pentium Gold G6600
+Pentium Gold G7500
+Pentium Gold G5420
+Pentium Gold G5500
+Pentium Gold G5600
+Pentium Silver J5040
+Pentium Silver J5040E
+Pentium Silver N6005
+Pentium Silver N6000
+Pentium Silver N6010
+
+Athlon 200GE
+Athlon 220GE
+Athlon 240GE
+Athlon 3000G
+Athlon Silver 3050e
+Athlon Silver 3050U
+Athlon Silver 3050UE
+Athlon Gold 3150U
+Athlon Gold 3150GE
+Athlon Gold 3150C
+
+A4-4000
+A6-5200
+A6-5400K
+A8-5500
+A8-5600K
+A10-5700
+A10-5800K
+A10-6700
+A10-6800K
+
+FX-4100
+FX-4300
+FX-6300
+FX-6350
+FX-8300
+FX-8320
+FX-8350
+FX-8370
+FX-9370
+FX-9590
+
+Xeon E-2100
+Xeon E-2200
+Xeon E-2300
+Xeon Bronze 3100
+Xeon Silver 4100
+Xeon Gold 5100
+Xeon Gold 6100
+Xeon Gold 6200
+Xeon Gold 6300
+Xeon Platinum 8100
+
+Epyc 7251
+Epyc 7261
+Epyc 7281
+Epyc 7301
+Epyc 7351
+Epyc 7401
+Epyc 7451
+Epyc 7551
+Epyc 7601
+Epyc 7702
+Epyc 7742
