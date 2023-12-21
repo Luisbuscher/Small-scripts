@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <style>
+        #colorButtonsContainer1 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            box-sizing: border-box;
+            gap: 5px 0;
+        }
+
+        #colorButtonsContainer2 {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            box-sizing: border-box;
+            gap: 5px 0;
+        }
+
+        #colorButtonsContainer3 {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            box-sizing: border-box;
+            gap: 5px 0;
+        }
+
+        span { display: none !important; }
+
+        .buttonStyle{ border: 2px solid #0004; }
+        .colorActive{ height: 30px; border: 1px solid #0005; }
+    </style>
+    <title>SVG Color</title>
+</head>
+
+<body style="padding: 0%;">
+    <br>
+    <div class="tittleImages" style="float: left;"></div>
+    <ul class="uk-subnav uk-subnav-pill uk-flex-center" uk-switcher>
+        <li><a href="#" style="color: black;">QUARTO</a></li>
+        <li><a href="#" style="color: black;">SALA</a></li>
+        <li><a href="#" style="color: black;">CORPORATIVO</a></li>
+    </ul>
+
+    <ul class="uk-switcher uk-margin">
+        <li>
+            <!-- SVG 1 -->
+            <div uk-grid>
+                <div class="uk-width-1-2@m uk-width-2-3@l" id="svgContainer1"></div>
+                <div class="colors uk-width-1-2@m uk-width-1-3@l" style="justify-content: center; text-align: center;">
+                    <ul class="uk-subnav uk-subnav-pill uk-flex-center" uk-switcher>
+                        <li><a class="uk-button uk-button-default" type="button" name="select" href="#"
+                                style="color: black;">Tinta Acrílica Econômica</a></li>
+                        <li><a class="uk-button uk-button-default" type="button" name="select" href="#"
+                                style="color: black;">Tinta Acrílica Standart</a></li>
+                        <li><a class="uk-button uk-button-default" type="button" name="select" href="#"
+                                style="color: black;">Tinta Acrílica Premium</a></li>
+                    </ul>
+                    <ul class="uk-switcher uk-margin">
+                        <li>
+                            <div id="colorAcrilica1" name="Tinta Acrílica Econômica">
+                                <h2 style="text-align: start; margin-left: 2%;">Tinta Acrílica Econômica:</h2>
+                                <div class="colorActive uk-width-1-1"></div>
+                                <br>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="colorStandart1" name="Tinta Acrílica Standart">
+                                <h2 style="text-align: start; margin-left: 2%;">Tinta Acrílica Standart:</h2>
+                                <div class="colorActive uk-width-1-1"></div>
+                                <br>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="colorPremium1" name="Tinta Acrílica Premium">
+                                <h2 style="text-align: start; margin-left: 2%;">Tinta Acrílica Premium:</h2><br>
+                                <div class="colorActive uk-width-1-1"></div>
+                                <br>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+        <li>
+            <!-- SVG 2 -->
+            <div uk-grid>
+                <div class="uk-width-1-2@m uk-width-2-3@l" id="svgContainer2"></div>
+                <div class="colors uk-width-1-2@m uk-width-1-3@l" style="justify-content: center; text-align: center;">
+                    <ul class="uk-subnav uk-subnav-pill uk-flex-center" uk-switcher>
+                        <li><a class="uk-button uk-button-default" type="button" name="select" href="#"
+                                style="color: black;">Tinta Acrílica Econômica</a></li>
+                        <li><a class="uk-button uk-button-default" type="button" name="select" href="#"
+                                style="color: black;">Tinta Acrílica Standart</a></li>
+                        <li><a class="uk-button uk-button-default" type="button" name="select" href="#"
+                                style="color: black;">Tinta Acrílica Premium</a></li>
+                    </ul>
+                    <ul class="uk-switcher uk-margin">
+                        <li>
+                            <div id="colorAcrilica2" name="Tinta Acrílica Econômica">
+                                <h2 style="text-align: start; margin-left: 2%;">Tinta Acrílica Econômica:</h2>
+                                <div class="colorActive uk-width-1-1"></div>
+                                <br>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="colorStandart2" name="Tinta Acrílica Standart">
+                                <h2 style="text-align: start; margin-left: 2%;">Tinta Acrílica Standart:</h2>
+                                <div class="colorActive uk-width-1-1"></div>
+                                <br>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="colorPremium2" name="Tinta Acrílica Premium">
+                                <h2 style="text-align: start; margin-left: 2%;">Tinta Acrílica Premium:</h2><br>
+                                <div class="colorActive uk-width-1-1"></div>
+                                <br>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+        <li>
+            <!-- SVG 3 -->
+            <div uk-grid>
+                <div class="uk-width-1-2@m uk-width-2-3@l" id="svgContainer3"></div>
+                <div class="colors uk-width-1-2@m uk-width-1-3@l" style="justify-content: center; text-align: center;">
+                    <ul class="uk-subnav uk-subnav-pill uk-flex-center" uk-switcher>
+                        <li><a class="uk-button uk-button-default" type="button" name="select" href="#"
+                                style="color: black;">Tinta Acrílica Econômica</a></li>
+                        <li><a class="uk-button uk-button-default" type="button" name="select" href="#"
+                                style="color: black;">Tinta Acrílica Standart</a></li>
+                        <li><a class="uk-button uk-button-default" type="button" name="select" href="#"
+                                style="color: black;">Tinta Acrílica Premium</a></li>
+                    </ul>
+                    <ul class="uk-switcher uk-margin">
+                        <li>
+                            <div id="colorAcrilica3" name="Tinta Acrílica Econômica">
+                                <h2 style="text-align: start; margin-left: 2%;">Tinta Acrílica Econômica:</h2>
+                                <div class="colorActive uk-width-1-1"></div>
+                                <br>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="colorStandart3" name="Tinta Acrílica Standart">
+                                <h2 style="text-align: start; margin-left: 2%;">Tinta Acrílica Standart:</h2>
+                                <div class="colorActive uk-width-1-1"></div>
+                                <br>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="colorPremium3" name="Tinta Acrílica Premium">
+                                <h2 style="text-align: start; margin-left: 2%;">Tinta Acrílica Premium:</h2><br>
+                                <div class="colorActive uk-width-1-1"></div>
+                                <br>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+    </ul>
+
+    <script>
+        let svgData1;
+        let svgData2;
+        let svgData3;
+        const colors1 = ['#734dbe', '#fedf88', '#decacb', '#0e6cce', '#a1b9df', '#cae1e9', '#f0f5fb', '#e2e1e9', '#fcd173', '#c3a99a', '#949aa6', '#bec4d2', '#736059', '#a49791', '#eab8d2', '#f2e9ee', '#f2e0ca', '#efe1de', '#ffe8bc', '#f2d2bb', '#0d141a', '#f6dccf', '#e0506b', '#c13734', '#f17536', '#c17a64', '#5abb85', '#8eb45f', '#85d8d2', '#c7dcab',
+
+            '#734dbe', '#fedf88', '#decacb', '#16347a', '#0e6cce', '#a1b9df', '#a1b9df', '#f0f5fb', '#e2e1e9', '#c3a99a', '#de5e39', '#949aa6', '#bec4d2', '#736059', '#a49791', '#edb93c', '#eab8d2', '#f2e9ee', '#f2e0ca', '#efe1de', '#0e9abc', '#ffe8bc', '#f2d2bb', '#0d141a', '#f6dccf', '#e0506b', '#c17a64', '#5abb85', '#8eb45f', '#c7dcab', '#c0312b',
+
+            '#734dbe', '#decacb', '#16347a', '#0e6cce', '#a1b9df', '#f0f5fb', '#e2e1e9', '#c3a99a', '#de5e39', '#949aa6', '#bec4d2', '#736059', '#edb93c', '#f2e9ee', '#f2e0ca', '#efe1de', '#0e9abc', '#ffe8bc', '#f2d2bb', '#f6dccf', '#e0506b', '#5abb85', '#c0312b'];
+
+        const colors2 = ['#734dbe', '#fedf88', '#decacb', '#0e6cce', '#a1b9df', '#cae1e9', '#f0f5fb', '#e2e1e9', '#fcd173', '#c3a99a', '#949aa6', '#bec4d2', '#736059', '#a49791', '#eab8d2', '#f2e9ee', '#f2e0ca', '#efe1de', '#ffe8bc', '#f2d2bb', '#0d141a', '#f6dccf', '#e0506b', '#c13734', '#f17536', '#c17a64', '#5abb85', '#8eb45f', '#85d8d2', '#c7dcab',
+
+            '#734dbe', '#fedf88', '#decacb', '#16347a', '#0e6cce', '#a1b9df', '#a1b9df', '#f0f5fb', '#e2e1e9', '#c3a99a', '#de5e39', '#949aa6', '#bec4d2', '#736059', '#a49791', '#edb93c', '#eab8d2', '#f2e9ee', '#f2e0ca', '#efe1de', '#0e9abc', '#ffe8bc', '#f2d2bb', '#0d141a', '#f6dccf', '#e0506b', '#c17a64', '#5abb85', '#8eb45f', '#c7dcab', '#c0312b',
+
+            '#734dbe', '#decacb', '#16347a', '#0e6cce', '#a1b9df', '#f0f5fb', '#e2e1e9', '#c3a99a', '#de5e39', '#949aa6', '#bec4d2', '#736059', '#edb93c', '#f2e9ee', '#f2e0ca', '#efe1de', '#0e9abc', '#ffe8bc', '#f2d2bb', '#f6dccf', '#e0506b', '#5abb85', '#c0312b'];
+
+        const colors3 = ['#734dbe', '#fedf88', '#decacb', '#0e6cce', '#a1b9df', '#cae1e9', '#f0f5fb', '#e2e1e9', '#fcd173', '#c3a99a', '#949aa6', '#bec4d2', '#736059', '#a49791', '#eab8d2', '#f2e9ee', '#f2e0ca', '#efe1de', '#ffe8bc', '#f2d2bb', '#0d141a', '#f6dccf', '#e0506b', '#c13734', '#f17536', '#c17a64', '#5abb85', '#8eb45f', '#85d8d2', '#c7dcab',
+
+            '#734dbe', '#fedf88', '#decacb', '#16347a', '#0e6cce', '#a1b9df', '#a1b9df', '#f0f5fb', '#e2e1e9', '#c3a99a', '#de5e39', '#949aa6', '#bec4d2', '#736059', '#a49791', '#edb93c', '#eab8d2', '#f2e9ee', '#f2e0ca', '#efe1de', '#0e9abc', '#ffe8bc', '#f2d2bb', '#0d141a', '#f6dccf', '#e0506b', '#c17a64', '#5abb85', '#8eb45f', '#c7dcab', '#c0312b',
+
+            '#734dbe', '#decacb', '#16347a', '#0e6cce', '#a1b9df', '#f0f5fb', '#e2e1e9', '#c3a99a', '#de5e39', '#949aa6', '#bec4d2', '#736059', '#edb93c', '#f2e9ee', '#f2e0ca', '#efe1de', '#0e9abc', '#ffe8bc', '#f2d2bb', '#f6dccf', '#e0506b', '#5abb85', '#c0312b'];
+
+        const colorNames1 = ["Açaí", "Amarelo Canário", "Areia", "Azul Oceano", "Azul Praia", "Azul Sereno", "Branco", "Branco Gelo", "Cajú", "Camurça", "Chuva de Prata", "Cinza Cristal", "Cogumelo Japonês", "Concreto", "Lilás", "Linho Egípcio", "Marfim", "Palha", "Pérola", "Pêssego", "Preto", "Rosa Baby", "Rosa Intenso", "Rubi", "Tangerina", "Terracota", "Verde Angra", "Verde Limão", "Verde Piscina", "Verde Primavera", "Açaí", "Amarelo Canário", "Areia", "Azul França", "Azul Oceano", "Azul Praia", "Azul Sereno", "Branco", "Branco Gelo", "Camurça", "Cenoura", "Chuva de Prata", "Cinza Cristal", "Cogumelo Japonês", "Concreto", "Girassol", "Lilás", "Linho Egípcio", "Marfim", "Palha", "Pavão", "Pérola", "Pêssego", "Preto", "Rosa Baby", "Rosa Intenso", "Terracota", "Verde Angra", "Verde Limão", "Verde Primavera", "Vermelho Paixão", "Açaí", "Areia", "Azul França", "Azul Oceano", "Azul Praia", "Branco", "Branco Gelo", "Camurça", "Cenoura", "Chuva de Prata", "Cinza Cristal", "Cogumelo Japonês", "Girassol", "Linho Egípcio", "Marfim", "Palha", "Pavão", "Pérola", "Pêssego", "Rosa Baby", "Rosa Intenso", "Verde Angra", "Vermelho Paixão"];
+
+        const colorNames2 = ["Açaí", "Amarelo Canário", "Areia", "Azul Oceano", "Azul Praia", "Azul Sereno", "Branco", "Branco Gelo", "Cajú", "Camurça", "Chuva de Prata", "Cinza Cristal", "Cogumelo Japonês", "Concreto", "Lilás", "Linho Egípcio", "Marfim", "Palha", "Pérola", "Pêssego", "Preto", "Rosa Baby", "Rosa Intenso", "Rubi", "Tangerina", "Terracota", "Verde Angra", "Verde Limão", "Verde Piscina", "Verde Primavera", "Açaí", "Amarelo Canário", "Areia", "Azul França", "Azul Oceano", "Azul Praia", "Azul Sereno", "Branco", "Branco Gelo", "Camurça", "Cenoura", "Chuva de Prata", "Cinza Cristal", "Cogumelo Japonês", "Concreto", "Girassol", "Lilás", "Linho Egípcio", "Marfim", "Palha", "Pavão", "Pérola", "Pêssego", "Preto", "Rosa Baby", "Rosa Intenso", "Terracota", "Verde Angra", "Verde Limão", "Verde Primavera", "Vermelho Paixão", "Açaí", "Areia", "Azul França", "Azul Oceano", "Azul Praia", "Branco", "Branco Gelo", "Camurça", "Cenoura", "Chuva de Prata", "Cinza Cristal", "Cogumelo Japonês", "Girassol", "Linho Egípcio", "Marfim", "Palha", "Pavão", "Pérola", "Pêssego", "Rosa Baby", "Rosa Intenso", "Verde Angra", "Vermelho Paixão"];
+
+        const colorNames3 = ["Açaí", "Amarelo Canário", "Areia", "Azul Oceano", "Azul Praia", "Azul Sereno", "Branco", "Branco Gelo", "Cajú", "Camurça", "Chuva de Prata", "Cinza Cristal", "Cogumelo Japonês", "Concreto", "Lilás", "Linho Egípcio", "Marfim", "Palha", "Pérola", "Pêssego", "Preto", "Rosa Baby", "Rosa Intenso", "Rubi", "Tangerina", "Terracota", "Verde Angra", "Verde Limão", "Verde Piscina", "Verde Primavera", "Açaí", "Amarelo Canário", "Areia", "Azul França", "Azul Oceano", "Azul Praia", "Azul Sereno", "Branco", "Branco Gelo", "Camurça", "Cenoura", "Chuva de Prata", "Cinza Cristal", "Cogumelo Japonês", "Concreto", "Girassol", "Lilás", "Linho Egípcio", "Marfim", "Palha", "Pavão", "Pérola", "Pêssego", "Preto", "Rosa Baby", "Rosa Intenso", "Terracota", "Verde Angra", "Verde Limão", "Verde Primavera", "Vermelho Paixão", "Açaí", "Areia", "Azul França", "Azul Oceano", "Azul Praia", "Branco", "Branco Gelo", "Camurça", "Cenoura", "Chuva de Prata", "Cinza Cristal", "Cogumelo Japonês", "Girassol", "Linho Egípcio", "Marfim", "Palha", "Pavão", "Pérola", "Pêssego", "Rosa Baby", "Rosa Intenso", "Verde Angra", "Vermelho Paixão"];
+
+        const fetch1 = fetch('quarto.txt')
+            .then(response => response.text())
+            .then(text => {
+                svgData1 = text;
+            });
+
+        const fetch2 = fetch('sala1.txt')
+            .then(response => response.text())
+            .then(text => {
+                svgData2 = text;
+            });
+
+        const fetch3 = fetch('sala2.txt')
+            .then(response => response.text())
+            .then(text => {
+                svgData3 = text;
+            });
+
+        Promise.all([fetch1, fetch2, fetch3])
+            .then(() => {
+                // Carregar SVGs nos divs
+                document.getElementById('svgContainer1').innerHTML = svgData1;
+                document.getElementById('svgContainer2').innerHTML = svgData2;
+                document.getElementById('svgContainer3').innerHTML = svgData3;
+
+                const colorButtonsContainer1 = document.getElementById('colorButtonsContainer1');
+
+                const colorAcrilica1 = document.getElementById('colorAcrilica1');
+                const gridContainerAcrilica1 = document.createElement('div');
+                gridContainerAcrilica1.classList.add('uk-grid-medium', 'uk-flex', 'uk-flex-wrap');
+                colorAcrilica1.appendChild(gridContainerAcrilica1);
+
+                const colorStandart1 = document.getElementById('colorStandart1');
+                const gridContainerStandart1 = document.createElement('div');
+                gridContainerStandart1.classList.add('uk-grid-medium', 'uk-flex', 'uk-flex-wrap');
+                colorStandart1.appendChild(gridContainerStandart1);
+
+                const colorPremium1 = document.getElementById('colorPremium1');
+                const gridContainerPremium1 = document.createElement('div');
+                gridContainerPremium1.classList.add('uk-grid-medium', 'uk-flex', 'uk-flex-wrap');
+                colorPremium1.appendChild(gridContainerPremium1);
+
+                colors1.forEach((color, index) => {
+                    const button = document.createElement('button');
+                    button.classList.add('color', 'uk-button', 'uk-button-default', 'color-button', 'uk-margin-small', 'buttonStyle');
+                    button.style.background = color;
+
+                    const colorName = colorNames1[index];
+                    const label = document.createElement('span');
+                    label.innerHTML = colorName;
+                    label.style.display = "block";
+                    label.style.textAlign = "center";
+
+                    const container = document.createElement('div');
+                    container.appendChild(button);
+                    container.appendChild(label);
+
+                    if (index <= 29) {
+                        gridContainerAcrilica1.appendChild(container);
+                        button.addEventListener('click', () => changeColor(button, 'svgContainer1', 'rect136', color, colorNames1[index], colorAcrilica1));
+                    } else if (index > 29 && index <= 60) {
+                        gridContainerStandart1.appendChild(container);
+                        button.addEventListener('click', () => changeColor(button, 'svgContainer1', 'rect136', color, colorNames1[index], colorStandart1));
+                    } else if (index > 60) {
+                        gridContainerPremium1.appendChild(container);
+                        button.addEventListener('click', () => changeColor(button, 'svgContainer1', 'rect136', color, colorNames1[index], colorPremium1));
+                    }
+                });
+
+                // Adicionar botões de cores para o ambiente 2:
+                const colorButtonsContainer2 = document.getElementById('colorButtonsContainer2');
+
+                const colorAcrilica2 = document.getElementById('colorAcrilica2');
+                const gridContainerAcrilica2 = document.createElement('div');
+                gridContainerAcrilica2.classList.add('uk-grid-medium', 'uk-flex', 'uk-flex-wrap');
+                colorAcrilica2.appendChild(gridContainerAcrilica2);
+
+                const colorStandart2 = document.getElementById('colorStandart2');
+                const gridContainerStandart2 = document.createElement('div');
+                gridContainerStandart2.classList.add('uk-grid-medium', 'uk-flex', 'uk-flex-wrap');
+                colorStandart2.appendChild(gridContainerStandart2);
+
+                const colorPremium2 = document.getElementById('colorPremium2');
+                const gridContainerPremium2 = document.createElement('div');
+                gridContainerPremium2.classList.add('uk-grid-medium', 'uk-flex', 'uk-flex-wrap');
+                colorPremium2.appendChild(gridContainerPremium2);
+
+                colors2.forEach((color, index) => {
+                    const button = document.createElement('button');
+                    button.classList.add('uk-button', 'uk-button-default', 'color-button', 'uk-margin-small');
+                    button.style.background = color;
+                    button.addEventListener('click', () => changeColor(button, 'svgContainer2', 'rect218', color, colorNames2[index], colorAcrilica2));
+
+                    const colorName = colorNames2[index];
+                    const label = document.createElement('span');
+                    label.innerHTML = colorName;
+                    label.style.display = "block";
+                    label.style.textAlign = "center";
+
+                    const container = document.createElement('div');
+                    container.appendChild(button);
+                    container.appendChild(label);
+
+                    if (index <= 29) {
+                        gridContainerAcrilica2.appendChild(container);
+                        button.addEventListener('click', () => changeColor(button, 'svgContainer2', 'rect136', color, colorNames2[index], colorAcrilica2));
+                    } else if (index > 29 && index <= 60) {
+                        gridContainerStandart2.appendChild(container);
+                        button.addEventListener('click', () => changeColor(button, 'svgContainer2', 'rect136', color, colorNames2[index], colorStandart2));
+                    } else if (index > 60) {
+                        gridContainerPremium2.appendChild(container);
+                        button.addEventListener('click', () => changeColor(button, 'svgContainer2', 'rect136', color, colorNames2[index], colorPremium2));
+                    }
+                });
+
+
+                // Adicionar botões de cores para o ambiente 3
+                const colorButtonsContainer3 = document.getElementById('colorButtonsContainer3');
+
+                const colorAcrilica3 = document.getElementById('colorAcrilica3');
+                const gridContainerAcrilica3 = document.createElement('div');
+                gridContainerAcrilica3.classList.add('uk-grid-medium', 'uk-flex', 'uk-flex-wrap');
+                colorAcrilica3.appendChild(gridContainerAcrilica3);
+
+                const colorStandart3 = document.getElementById('colorStandart3');
+                const gridContainerStandart3 = document.createElement('div');
+                gridContainerStandart3.classList.add('uk-grid-medium', 'uk-flex', 'uk-flex-wrap');
+                colorStandart3.appendChild(gridContainerStandart3);
+
+                const colorPremium3 = document.getElementById('colorPremium3');
+                const gridContainerPremium3 = document.createElement('div');
+                gridContainerPremium3.classList.add('uk-grid-medium', 'uk-flex', 'uk-flex-wrap');
+                colorPremium3.appendChild(gridContainerPremium3);
+
+                colors3.forEach((color, index) => {
+                    const button = document.createElement('button');
+                    button.classList.add('uk-button', 'uk-button-default', 'color-button', 'uk-margin-small');
+                    button.style.background = color;
+                    button.addEventListener('click', () => changeColor(button, 'svgContainer3', 'rect151', color, colorNames3[index], colorAcrilica3));
+
+                    const colorName = colorNames3[index];
+                    const label = document.createElement('span');
+                    label.innerHTML = colorName;
+                    label.style.display = "block";
+                    label.style.textAlign = "center";
+
+                    const container = document.createElement('div');
+                    container.appendChild(button);
+                    container.appendChild(label);
+
+                    if (index <= 29) {
+                        gridContainerAcrilica3.appendChild(container);
+                        button.addEventListener('click', () => changeColor(button, 'svgContainer3', 'rect136', color, colorNames3[index], colorAcrilica3));
+                    } else if (index > 29 && index <= 60) {
+                        gridContainerStandart3.appendChild(container);
+                        button.addEventListener('click', () => changeColor(button, 'svgContainer3', 'rect136', color, colorNames3[index], colorStandart3));
+                    } else if (index > 60) {
+                        gridContainerPremium3.appendChild(container);
+                        button.addEventListener('click', () => changeColor(button, 'svgContainer3', 'rect136', color, colorNames3[index], colorPremium3));
+                    }
+                });
+
+            });
+
+        // Função para mudar a cor do fill
+        function changeColor(button, svgId, rectId, color, colorName, div) {
+            addNameColorTitle(div, colorName)
+            removeBorderAllButtons();
+            button.style.border = '2px solid';
+            button.style.borderColor = 'green';
+            let backgroundColorActive = document.querySelectorAll('.colorActive');
+            for(let i = 0; i < backgroundColorActive.length; i++){
+                backgroundColorActive[i].style.backgroundColor = color;
+            }
+
+            // Encontrar o elemento pelo id
+            const element = document.querySelector(`#${svgId} #${rectId}`);
+
+            if (element) {
+                // Alterar a cor do fill para a cor selecionada
+                element.setAttribute('fill', color);
+            }
+        }
+
+        function removeBorderAllButtons() {
+            // Obtém todos os elementos <button> na página
+            const buttons = document.getElementsByTagName('button');
+
+            // Percorre todos os botões e remove a borda, exceto os que possuem o nome "select"
+            for (let i = 0; i < buttons.length; i++) {
+                if (buttons[i].name !== 'select') {
+                    buttons[i].style.border = '2px solid #0004';
+                }
+            }
+        }
+
+        function addNameColorTitle(div, nameColor) {
+            const minhaDiv = document.getElementById(div.id);
+            const h2Element = minhaDiv.querySelector('h2');
+            h2Element.textContent = `${minhaDiv.getAttribute('name')}: ${nameColor}`
+        }
+    </script>
+</body>
+
+</html>
